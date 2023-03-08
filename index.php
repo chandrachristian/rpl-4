@@ -8,10 +8,11 @@ session_start();
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-     <title>Hugo - Car Wash</title>
-<!--
+     <title>Caka - Car Wash</title>
+     <!--
 
 Template 2098 Health
 
@@ -36,6 +37,7 @@ http://www.tooplate.com/view/2098-health
      <link rel="stylesheet" href="css/tooplate-style.css">
 
 </head>
+
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
      <!-- PRE LOADER -->
@@ -54,12 +56,12 @@ http://www.tooplate.com/view/2098-health
                <div class="row">
 
                     <div class="col-md-4 col-sm-5">
-                         <p>Kinclongkan kendaraan anda bersama Hugo Car Wash</p>
+                         <p>Kinclongkan kendaraan anda bersama Caka Car Wash</p>
                     </div>
 
                     <div class="col-md-8 col-sm-7 text-align-right">
-                         <span class="phone-icon"><i class="fa fa-phone"></i> 081223445667</span>
-                         <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 07.30 - 17:00 (Setiap Hari)</span>
+                         <span class="phone-icon"><i class="fa fa-phone"></i> 081295612828</span>
+                         <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 07.30 - 18:00 (Setiap Hari)</span>
                     </div>
 
                </div>
@@ -79,7 +81,7 @@ http://www.tooplate.com/view/2098-health
                     </button>
 
                     <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand"><i class="fa fa-h-square"></i>ugo - Car Wash</a>
+                    <a href="index.html" class="navbar-brand"><i class="fa fa--square"></i>Caka - Car Wash</a>
                </div>
 
                <!-- MENU LINKS -->
@@ -102,37 +104,37 @@ http://www.tooplate.com/view/2098-health
           <div class="container">
                <div class="row">
 
-                         <div class="owl-carousel owl-theme">
-                              <div class="item item-first">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Percayakan Noda Kendaraan Bersama Kami</h3>
-                                             <h1>Hugo - Car Wash</h1>
-                                             <a href="#about" class="section-btn btn btn-default smoothScroll">Tentang Kami</a>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="item item-second">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Kinclongkan kendaraan anda hanya disini</h3>
-                                             <h1>Hugo - Car Wash</h1>
-                                             <a href="#appointment" class="section-btn btn btn-default btn-gray smoothScroll">Daftar Sekarang</a>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="item item-third">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Dan Berikan Masukan Kepada Kami</h3>
-                                             <h1>Kepuasan Anda Adalah Semangat Kami</h1>
-                                             <a href="#saran" class="section-btn btn btn-default btn-blue smoothScroll">Kirim Saran</a>
-                                        </div>
+                    <div class="owl-carousel owl-theme">
+                         <div class="item item-first">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-10">
+                                        <h3>Percayakan Noda Kendaraan Bersama Kami</h3>
+                                        <h1>Caka - Car Wash</h1>
+                                        <a href="#about" class="section-btn btn btn-default smoothScroll">Tentang Kami</a>
                                    </div>
                               </div>
                          </div>
+
+                         <div class="item item-second">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-10">
+                                        <h3>Kinclongkan kendaraan anda hanya disini</h3>
+                                        <h1>Caka - Car Wash</h1>
+                                        <a href="#appointment" class="section-btn btn btn-default btn-gray smoothScroll">Daftar Sekarang</a>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="item item-third">
+                              <div class="caption">
+                                   <div class="col-md-offset-1 col-md-10">
+                                        <h3>Dan Berikan Masukan Kepada Kami</h3>
+                                        <h1>Kepuasan Anda Adalah Semangat Kami</h1>
+                                        <a href="#saran" class="section-btn btn btn-default btn-blue smoothScroll">Kirim Saran</a>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
 
                </div>
           </div>
@@ -148,7 +150,7 @@ http://www.tooplate.com/view/2098-health
                          <div class="about-info">
                               <h2 class="wow fadeInUp" data-wow-delay="0.6s">Tentang Kami</h2>
                               <div class="wow fadeInUp" data-wow-delay="0.8s">
-                                   <p>Hugo Carwash merupakan salah satu bidang usaha yang menawarkan jasa perawatan kendaraan berupa pencucian dan pembersihan kendaraan.</p>
+                                   <p>Caka Carwash merupakan salah satu bidang usaha yang menawarkan jasa perawatan kendaraan berupa pencucian dan pembersihan kendaraan.</p>
                               </div>
                               <figure class="profile wow fadeInUp" data-wow-delay="1s">
                                    <figcaption>
@@ -177,21 +179,21 @@ http://www.tooplate.com/view/2098-health
           </div>
      </section>
 
-<?php
-date_default_timezone_set('Asia/Jakarta');
-$tgl_pendaftaran = date("Y-m-d");
-$queryy = mysql_query("SELECT no_antrian FROM pendaftaran WHERE tgl_pendaftaran = '$tgl_pendaftaran'");
-$htg = mysql_num_rows($queryy);
+     <?php
+     date_default_timezone_set('Asia/Jakarta');
+     $tgl_pendaftaran = date("Y-m-d");
+     $queryy = mysql_query("SELECT no_antrian FROM pendaftaran WHERE tgl_pendaftaran = '$tgl_pendaftaran'");
+     $htg = mysql_num_rows($queryy);
 
-$next = $htg + 1;
+     $next = $htg + 1;
 
-$no_antrian = $tgl_pendaftaran . '/' . $next;
+     $no_antrian = $tgl_pendaftaran . '/' . $next;
 
-$hitung = mysql_query("SELECT max(id_customer) as id_terakhir from customer");
-$cari = mysql_fetch_array($hitung);
-$id_lanjut = $cari['id_terakhir'] + 1;
+     $hitung = mysql_query("SELECT max(id_customer) as id_terakhir from customer");
+     $cari = mysql_fetch_array($hitung);
+     $id_lanjut = $cari['id_terakhir'] + 1;
 
-?>
+     ?>
 
 
      <!-- MAKE AN APPOINTMENT -->
@@ -204,7 +206,7 @@ $id_lanjut = $cari['id_terakhir'] + 1;
                     <div class="col-md-12 col-sm-12">
                          <!-- CONTACT FORM HERE -->
                          <form id="appointment-form" role="form" method="post" action="pages/proses_pendaftaran.php">
-                              <input type="hidden" class="form-control" id="nama" name="id_customer" value="<?=$id_lanjut;?>">
+                              <input type="hidden" class="form-control" id="nama" name="id_customer" value="<?= $id_lanjut; ?>">
                               <!-- SECTION TITLE -->
                               <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
                                    <h2>Pendaftaran</h2>
@@ -234,42 +236,42 @@ $id_lanjut = $cari['id_terakhir'] + 1;
                                    <div class="col-md-6 col-sm-6">
                                         <label for="select">Type Mobil</label>
                                         <?php
-$result2 = mysql_query("select * from type_mobil");
-echo '<select name="type_mobil" class="form-control-rounded form-control" required>';
-echo '<option>Pilih Type Mobil</option>';
-while ($row2 = mysql_fetch_array($result2)) {
-    echo '<option value="' . $row2['type_mobil'] . '">' . $row2['type_mobil'] . '</option>';
-}
-echo '</select>';
-?>
+                                        $result2 = mysql_query("select * from type_mobil");
+                                        echo '<select name="type_mobil" class="form-control-rounded form-control" required>';
+                                        echo '<option>Pilih Type Mobil</option>';
+                                        while ($row2 = mysql_fetch_array($result2)) {
+                                             echo '<option value="' . $row2['type_mobil'] . '">' . $row2['type_mobil'] . '</option>';
+                                        }
+                                        echo '</select>';
+                                        ?>
                                    </div>
 
                                    <div class="col-md-6 col-sm-6">
                                         <label for="email">No. Antrian</label>
                                         <input type="text" class="form-control-rounded form-control" value="<?php echo $next; ?>" required="" readonly name="next">
-                                            <input type="hidden" name="no_antrian" class="form-control-rounded form-control" value="<?php echo $no_antrian; ?>" required="" readonly>
+                                        <input type="hidden" name="no_antrian" class="form-control-rounded form-control" value="<?php echo $no_antrian; ?>" required="" readonly>
                                    </div>
 
 
                                    <div class="col-md-6 col-sm-6">
                                         <label for="select">Jenis Cucian</label>
                                         <?php
-$result = mysql_query("SELECT * FROM jenis_cucian");
-$jsArray = "var prdName = new Array();\n";
-echo '<select class="form-control" name="id_jenis_cucian" onchange="document.getElementById(\'txt2\').value = prdName[this.value]">';
-echo '<option>Pilih Jenis Cucian</option>';
-while ($row = mysql_fetch_array($result)) {
-    echo '<option value="' . $row['id_jenis_cucian'] . '">' . $row['jenis_cucian'] . '</option>';
-    $jsArray .= "prdName['" . $row['id_jenis_cucian'] . "'] = '" . addslashes($row['biaya']) . "';\n";
-}
-echo '</select>';
+                                        $result = mysql_query("SELECT * FROM jenis_cucian");
+                                        $jsArray = "var prdName = new Array();\n";
+                                        echo '<select class="form-control" name="id_jenis_cucian" onchange="document.getElementById(\'txt2\').value = prdName[this.value]">';
+                                        echo '<option>Pilih Jenis Cucian</option>';
+                                        while ($row = mysql_fetch_array($result)) {
+                                             echo '<option value="' . $row['id_jenis_cucian'] . '">' . $row['jenis_cucian'] . '</option>';
+                                             $jsArray .= "prdName['" . $row['id_jenis_cucian'] . "'] = '" . addslashes($row['biaya']) . "';\n";
+                                        }
+                                        echo '</select>';
 
-?>
+                                        ?>
                                    </div>
 
                                    <div class="col-md-6 col-sm-6">
                                         <label for="email">Tanggal Pendaftaran</label>
-                                        <input type="date" class="form-control" id="email" name="tgl_pendaftaran" value="<?=$tgl_pendaftaran;?>" readonly>
+                                        <input type="date" class="form-control" id="email" name="tgl_pendaftaran" value="<?= $tgl_pendaftaran; ?>" readonly>
                                    </div>
 
                                    <div class="col-md-6 col-sm-6">
@@ -279,14 +281,14 @@ echo '</select>';
 
                                    <input type="hidden" name="total_biaya" id="txt2" class="form-control" readonly="" onkeyup="sum();" />
                                    <script type="text/javascript">
-                                   <?php echo $jsArray; ?>
+                                        <?php echo $jsArray; ?>
                                    </script>
 
                                    <div class="col-md-12 col-sm-12">
                                         <button type="submit" class="form-control" id="cf-submit" name="submit">Daftar Sekarang</button>
                                    </div>
                               </div>
-                        </form>
+                         </form>
                     </div>
 
                </div>
@@ -295,7 +297,7 @@ echo '</select>';
 
 
 
-      <!-- ABOUT -->
+     <!-- ABOUT -->
      <section id="saran">
           <div class="container">
                <div class="row">
@@ -344,11 +346,14 @@ echo '</select>';
 
                                    <br><br><br><br><br>
 
+                                   <div class="col-md-20 col-sm-20">
+                                   </div>
+
                                    <div class="col-md-12 col-sm-12">
                                         <button type="submit" class="form-control" id="cf-submit" name="submit">Kirim Saran</button>
                                    </div>
                               </div>
-                        </form>
+                         </form>
                     </div>
 
                </div>
@@ -368,8 +373,8 @@ echo '</select>';
                               <p>Untuk mengetahui informasi lebih lanjut, silahkan hubungi kontak berikut.</p>
 
                               <div class="contact-info">
-                                   <p><i class="fa fa-phone"></i> 081223445667</p>
-                                   <p><i class="fa fa-envelope-o"></i> <a href="#">info@company.com</a></p>
+                                   <p><i class="fa fa-phone"></i> 081295612828</p>
+                                   <p><i class="fa fa-envelope-o"></i> <a href="#">chandrademam@gmail.com</a></p>
                               </div>
                          </div>
                     </div>
@@ -382,7 +387,8 @@ echo '</select>';
                          <div class="footer-thumb">
                               <div class="opening-hours">
                                    <h4 class="wow fadeInUp" data-wow-delay="0.4s">Waktu Operasional</h4>
-                                   <p>Senin - Minggu <span>07:30 - 17:00</span></p>
+                                   <p class="wow fadeInUp" data-wow-delay="0.4s">Senin - Jumat<span>07:30 - 18:00</span></p>
+                                   <p class="wow fadeInUp" data-wow-delay="0.4s">Sabut - Minggu<span>07:30 - 17:00</span></p>
                               </div>
                          </div>
                     </div>
@@ -390,13 +396,18 @@ echo '</select>';
                     <div class="col-md-12 col-sm-12 border-top">
                          <div class="col-md-6 col-sm-6">
                               <div class="copyright-text">
-                                   Copyright &#169; <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. All rights reserved.
+                                   Copyright &#169; <script type='text/javascript'>
+                                        var creditsyear = new Date();
+                                        document.write(creditsyear.getFullYear());
+                                   </script> <a expr:href='data:blog.homepageUrl'>
+                                        <data:blog.title />
+                                   </a>. All rights reserved.
                               </div>
                          </div>
 
                          <div class="col-md-2 col-sm-2 text-align-center">
                               <div class="angle-up-btn">
-                                  <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i class="fa fa-angle-up"></i></a>
+                                   <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i class="fa fa-angle-up"></i></a>
                               </div>
                          </div>
                     </div>
@@ -416,4 +427,5 @@ echo '</select>';
      <script src="js/custom.js"></script>
 
 </body>
+
 </html>
