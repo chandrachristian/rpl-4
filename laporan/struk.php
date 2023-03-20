@@ -9,7 +9,7 @@ class Mypdf extends FPDF
         $this->SetFont('Times','B',10);
         $this->Cell(80,15,'Nomor Antrian',0,0,'C');
         $this->ln();
-        $this->Cell(80,15,'Hugo Carwash',0,0,'C');
+        $this->Cell(80,15,'CAKA Carwash',0,0,'C');
         $this->SetFont('Times','',14);
         $this->ln();
         $this->ln();
@@ -74,10 +74,9 @@ while($a=mysql_fetch_array($per))
 
 
     $x = $pdf->GetX();
-    $pdf->mycell(100,20,20,'Hugo Carwash',1,0,'C');
+    $pdf->mycell(100,20,20,'CAKA Carwash',1,0,'C');
     $pdf->Ln();
 }
 
 $pdf->Output();
 //$pd->download()
-?> 

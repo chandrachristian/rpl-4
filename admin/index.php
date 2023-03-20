@@ -8,11 +8,13 @@ date_default_timezone_set('Asia/Jakarta');
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang=""> <!--<![endif]-->
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Admin Panel - Hugo Car Wash</title>
+    <title>Admin Panel - CAKA Car Wash</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,13 +31,14 @@ date_default_timezone_set('Asia/Jakarta');
     <link rel="stylesheet" href="assets/css/lib/datatable/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="shortcut icon" type="image/x-icon" href="../images/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/logo1.png">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
 
 </head>
+
 <body>
     <!-- Left Panel -->
 
@@ -92,7 +95,7 @@ date_default_timezone_set('Asia/Jakarta');
         <header id="header" class="header">
             <div class="top-left">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="./"><img src="../images/logo.png" alt="Logo"></a>
+                    <a class="navbar-brand" href="./"><img src="../images/logo1.png" alt="Logo"></a>
                     <a class="navbar-brand hidden" href="./"><img src="images/logo2.png" alt="Logo"></a>
                     <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
                 </div>
@@ -102,17 +105,17 @@ date_default_timezone_set('Asia/Jakarta');
                     <div class="header-left">
 
 
-                    <div class="user-area dropdown float-right">
-                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img class="user-avatar rounded-circle" src="images/default.png" alt="User Avatar">
-                        </a>
+                        <div class="user-area dropdown float-right">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="user-avatar rounded-circle" src="images/setting.png" alt="User Avatar">
+                            </a>
 
-                        <div class="user-menu dropdown-menu">
-                            <a class="nav-link" href="../config/logout.php"><i class="fa fa-power-off"></i>Logout</a>
+                            <div class="user-menu dropdown-menu">
+                                <a class="nav-link" href="../config/logout.php"><i class="fa fa-power-off"></i>Logout</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </header><!-- /header -->
         <!-- Header-->
 
@@ -130,31 +133,31 @@ date_default_timezone_set('Asia/Jakarta');
       -->
 
 
-      <?php
-$pages_dir = 'pages';
-if (!empty($_GET['p'])) {
-    $pages = scandir($pages_dir, 0);
-    unset($pages[0], $pages[1]);
+        <?php
+        $pages_dir = 'pages';
+        if (!empty($_GET['p'])) {
+            $pages = scandir($pages_dir, 0);
+            unset($pages[0], $pages[1]);
 
-    $p = $_GET['p'];
-    if (in_array($p . '.php', $pages)) {
-        include $pages_dir . '/' . $p . '.php';
-    } else {
+            $p = $_GET['p'];
+            if (in_array($p . '.php', $pages)) {
+                include $pages_dir . '/' . $p . '.php';
+            } else {
         ?>
 
-    <script language="JavaScript">
-    document.location='index.php?p=error-404'
-    </script>
-    <?php
-}
-} else {
-    include $pages_dir . '/home.php';
-}
-?>
+                <script language="JavaScript">
+                    document.location = 'index.php?p=error-404'
+                </script>
+        <?php
+            }
+        } else {
+            include $pages_dir . '/home.php';
+        }
+        ?>
 
 
 
-      <!--
+        <!--
       ========================================================
                                   FOOTER
       ========================================================
@@ -171,7 +174,12 @@ if (!empty($_GET['p'])) {
             <div class="footer-inner bg-white">
                 <div class="row">
                     <div class="col-sm-6">
-                        Copyright &#169; <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script> <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. All rights reserved.
+                        Copyright &#169; <script type='text/javascript'>
+                            var creditsyear = new Date();
+                            document.write(creditsyear.getFullYear());
+                        </script> <a expr:href='data:blog.homepageUrl'>
+                            <data:blog.title />
+                        </a>. All rights reserved.
                     </div>
                 </div>
             </div>
@@ -203,10 +211,11 @@ if (!empty($_GET['p'])) {
 
     <script type="text/javascript">
         $(document).ready(function() {
-          $('#bootstrap-data-table-export').DataTable();
-      } );
-  </script>
+            $('#bootstrap-data-table-export').DataTable();
+        });
+    </script>
 
 
 </body>
+
 </html>

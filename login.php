@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login Admin - Hugo Car Wash</title>
 	<link rel="stylesheet" href="res/css/style.css">
-	<link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+	<link rel="shortcut icon" type="image/x-icon" href="./images/logo1.png">
 	<link rel="stylesheet" href="res/plugin/FontAwesome/css/font-awesome.min.css">
 </head>
 

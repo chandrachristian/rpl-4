@@ -32,7 +32,7 @@ http://www.tooplate.com/view/2098-health
      <link rel="stylesheet" href="css/owl.carousel.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-     <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+     <link rel="shortcut icon" type="image/x-icon" href="./images/logo1.png">
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
 
@@ -81,7 +81,7 @@ http://www.tooplate.com/view/2098-health
                     </button>
 
                     <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand"><i class="fa fa--square"></i>Caka - Car Wash</a>
+                    <a href="index.php" class="navbar-brand"><i class="fa fa-c-rounded"></i>Caka - Car Wash</a>
                </div>
 
                <!-- MENU LINKS -->
