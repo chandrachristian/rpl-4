@@ -32,7 +32,7 @@ http://www.tooplate.com/view/2098-health
      <link rel="stylesheet" href="css/owl.carousel.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-     <link rel="shortcut icon" type="image/x-icon" href="./images/logo1.png">
+     <link rel="shortcut icon" type="image/x-icon" href="./images/logo3.png" sizes="32x32">
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
 

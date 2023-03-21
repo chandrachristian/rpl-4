@@ -31,7 +31,7 @@ date_default_timezone_set('Asia/Jakarta');
     <link rel="stylesheet" href="assets/css/lib/datatable/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="shortcut icon" type="image/x-icon" href="../images/logo1.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/logo3.png">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 
