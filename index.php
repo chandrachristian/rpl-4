@@ -81,6 +81,7 @@ http://www.tooplate.com/view/2098-health
                     </button>
 
                     <!-- lOGO TEXT HERE -->
+                    <!-- <a class="navbar-brand" href="./"><img src="./images/logo1.png" alt="Logo"></a> -->
                     <a href="index.php" class="navbar-brand"><i class="fa fa-c-rounded"></i>Caka - Car Wash</a>
                </div>
 
@@ -388,7 +389,7 @@ http://www.tooplate.com/view/2098-health
                               <div class="opening-hours">
                                    <h4 class="wow fadeInUp" data-wow-delay="0.4s">Waktu Operasional</h4>
                                    <p class="wow fadeInUp" data-wow-delay="0.4s">Senin - Jumat<span>07:30 - 18:00</span></p>
-                                   <p class="wow fadeInUp" data-wow-delay="0.4s">Sabut - Minggu<span>07:30 - 17:00</span></p>
+                                   <p class="wow fadeInUp" data-wow-delay="0.4s">Sabtu - Minggu<span>07:30 - 17:00</span></p>
                               </div>
                          </div>
                     </div>

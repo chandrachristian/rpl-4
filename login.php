@@ -15,7 +15,7 @@
 		<div class="box box-sm">
 			<div class="logo">
 				<span style="color:rgba(255,255,255,.4);">Login Admin</span>
-				<h1 style="font-size:32pt;letter-spacing:-3px;"><span style="color:#a5c422
+				<h1 style="font-size:32pt;letter-spacing:-3px;"><span style="color:#EE826C
 "> Caka </span> Car Wash</h1>
 
 			</div>
