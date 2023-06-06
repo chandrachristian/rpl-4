@@ -464,7 +464,7 @@ function mysql_field_len($risultato ,$indice_campo){
  * @return string
  **/
 function mysql_field_type ($risultato ,$indice_campo){
-	$info=@mysql_fetch_field($risultato,$indice_campo);//necessario perchè type in mysqli è numerico
+	$info=@mysql_fetch_field($risultato,$indice_campo);//necessario perchï¿½ type in mysqli ï¿½ numerico
 	return $info->type;
 }
 
