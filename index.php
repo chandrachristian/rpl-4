@@ -8,6 +8,9 @@ session_start();
 
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Temukan jasa pencucian mobil terbaik di kota Anda dengan layanan profesional dari kami. Dapatkan pelayanan yang cepat dan efisien, serta menggunakan teknologi modern untuk hasil yang optimal. Nikmati pengalaman pencucian mobil yang menyenangkan dan praktis dengan harga yang terjangkau. Hubungi kami sekarang untuk mendapatkan penawaran khusus!">
 
 <head>
 
@@ -24,7 +27,7 @@ http://www.tooplate.com/view/2098-health
      <meta name="description" content="">
      <meta name="keywords" content="">
      <meta name="author" content="Tooplate">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <meta name="viewport" content="width=device-width">
 
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -61,7 +64,7 @@ http://www.tooplate.com/view/2098-health
 
                     <div class="col-md-8 col-sm-7 text-align-right">
                          <span class="phone-icon"><i class="fa fa-phone"></i> 081295612828</span>
-                         <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 07.30 - 18:00 (Setiap Hari)</span>
+                         <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 07.30 - 18:00 (Senin - Jumat)</span>
                     </div>
 
                </div>
@@ -400,7 +403,8 @@ http://www.tooplate.com/view/2098-health
                                    Copyright &#169; <script type='text/javascript'>
                                         var creditsyear = new Date();
                                         document.write(creditsyear.getFullYear());
-                                   </script> <a expr:href='data:blog.homepageUrl'>
+                                   </script>
+                                   <a href='data:blog.homepageUrl'>
                                         <data:blog.title />
                                    </a>. All rights reserved.
                               </div>
